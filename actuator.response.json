@@ -1,0 +1,525 @@
+{
+  "activeProfiles": [],
+  "defaultProfiles": [
+    "default"
+  ],
+  "propertySources": [
+    {
+      "name": "server.ports",
+      "properties": {
+        "local.server.port": {
+          "value": 8080
+        }
+      }
+    },
+    {
+      "name": "servletContextInitParams",
+      "properties": {}
+    },
+    {
+      "name": "systemProperties",
+      "properties": {
+        "java.specification.version": {
+          "value": "25"
+        },
+        "sun.cpu.isalist": {
+          "value": "amd64"
+        },
+        "sun.jnu.encoding": {
+          "value": "Cp1252"
+        },
+        "java.class.path": {
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25\\target\\classes;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-jackson\\4.0.3\\spring-boot-jackson-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\tools\\jackson\\core\\jackson-databind\\3.0.4\\jackson-databind-3.0.4.jar;C:\\Users\\mladecky\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.20\\jackson-annotations-2.20.jar;C:\\Users\\mladecky\\.m2\\repository\\tools\\jackson\\core\\jackson-core\\3.0.4\\jackson-core-3.0.4.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-web-server\\4.0.3\\spring-boot-web-server-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\11.0.18\\tomcat-embed-core-11.0.18.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\11.0.18\\tomcat-embed-el-11.0.18.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\11.0.18\\tomcat-embed-websocket-11.0.18.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-tomcat\\4.0.3\\spring-boot-tomcat-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-http-converter\\4.0.3\\spring-boot-http-converter-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\4.0.3\\spring-boot-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-context\\7.0.5\\spring-context-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-web\\7.0.5\\spring-web-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-beans\\7.0.5\\spring-beans-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc\\4.0.3\\spring-boot-webmvc-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-servlet\\4.0.3\\spring-boot-servlet-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-webmvc\\7.0.5\\spring-webmvc-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-aop\\7.0.5\\spring-aop-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-expression\\7.0.5\\spring-expression-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.5.32\\logback-classic-1.5.32.jar;C:\\Users\\mladecky\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.5.32\\logback-core-1.5.32.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.25.3\\log4j-to-slf4j-2.25.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.25.3\\log4j-api-2.25.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\slf4j\\jul-to-slf4j\\2.0.17\\jul-to-slf4j-2.0.17.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\4.0.3\\spring-boot-autoconfigure-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\jakarta\\annotation\\jakarta.annotation-api\\3.0.0\\jakarta.annotation-api-3.0.0.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\yaml\\snakeyaml\\2.5\\snakeyaml-2.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.17\\slf4j-api-2.0.17.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\spring-core\\7.0.5\\spring-core-7.0.5.jar;C:\\Users\\mladecky\\.m2\\repository\\commons-logging\\commons-logging\\1.3.5\\commons-logging-1.3.5.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.0\\jspecify-1.0.0.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-micrometer-metrics\\4.0.3\\spring-boot-micrometer-metrics-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-micrometer-observation\\4.0.3\\spring-boot-micrometer-observation-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-actuator-autoconfigure\\4.0.3\\spring-boot-actuator-autoconfigure-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-actuator\\4.0.3\\spring-boot-actuator-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\springframework\\boot\\spring-boot-health\\4.0.3\\spring-boot-health-4.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\io\\micrometer\\micrometer-observation\\1.16.3\\micrometer-observation-1.16.3.jar;C:\\Users\\mladecky\\.m2\\repository\\io\\micrometer\\micrometer-commons\\1.16.3\\micrometer-commons-1.16.3.jar;C:\\Users\\mladecky\\.m2\\repository\\io\\micrometer\\micrometer-jakarta9\\1.16.3\\micrometer-jakarta9-1.16.3.jar;C:\\Users\\mladecky\\.m2\\repository\\io\\micrometer\\micrometer-core\\1.16.3\\micrometer-core-1.16.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.2.2\\HdrHistogram-2.2.2.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\latencyutils\\LatencyUtils\\2.0.3\\LatencyUtils-2.0.3.jar;C:\\Users\\mladecky\\.m2\\repository\\org\\sonatype\\plexus\\plexus-cipher\\1.7\\plexus-cipher-1.7.jar"
+        },
+        "java.vm.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "sun.arch.data.model": {
+          "value": "64"
+        },
+        "user.variant": {
+          "value": ""
+        },
+        "java.vendor.url": {
+          "value": "https://java.oracle.com/"
+        },
+        "catalina.useNaming": {
+          "value": "false"
+        },
+        "user.timezone": {
+          "value": "Europe/Prague"
+        },
+        "java.vm.specification.version": {
+          "value": "25"
+        },
+        "os.name": {
+          "value": "Windows 11"
+        },
+        "APPLICATION_NAME": {
+          "value": "martin"
+        },
+        "sun.java.launcher": {
+          "value": "SUN_STANDARD"
+        },
+        "user.country": {
+          "value": "US"
+        },
+        "sun.boot.library.path": {
+          "value": "C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2\\bin"
+        },
+        "sun.java.command": {
+          "value": "com.ladecky.martin.MartinApplication"
+        },
+        "jdk.debug": {
+          "value": "release"
+        },
+        "sun.cpu.endian": {
+          "value": "little"
+        },
+        "user.home": {
+          "value": "C:\\Users\\mladecky"
+        },
+        "user.language": {
+          "value": "en"
+        },
+        "java.specification.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "java.version.date": {
+          "value": "2026-01-20"
+        },
+        "java.home": {
+          "value": "C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2"
+        },
+        "file.separator": {
+          "value": "\\"
+        },
+        "java.vm.compressedOopsMode": {
+          "value": "Zero based"
+        },
+        "line.separator": {
+          "value": "\r\n"
+        },
+        "java.vm.specification.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "java.specification.name": {
+          "value": "Java Platform API Specification"
+        },
+        "FILE_LOG_CHARSET": {
+          "value": "UTF-8"
+        },
+        "java.awt.headless": {
+          "value": "true"
+        },
+        "user.script": {
+          "value": ""
+        },
+        "sun.management.compiler": {
+          "value": "HotSpot 64-Bit Tiered Compilers"
+        },
+        "java.runtime.version": {
+          "value": "25.0.2+10-69"
+        },
+        "user.name": {
+          "value": "mladecky"
+        },
+        "stdout.encoding": {
+          "value": "cp850"
+        },
+        "path.separator": {
+          "value": ";"
+        },
+        "os.version": {
+          "value": "10.0"
+        },
+        "java.runtime.name": {
+          "value": "OpenJDK Runtime Environment"
+        },
+        "file.encoding": {
+          "value": "UTF-8"
+        },
+        "java.vm.name": {
+          "value": "OpenJDK 64-Bit Server VM"
+        },
+        "java.vendor.url.bug": {
+          "value": "https://bugreport.java.com/bugreport/"
+        },
+        "java.io.tmpdir": {
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\Temp\\"
+        },
+        "catalina.home": {
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\Temp\\tomcat.8080.524405719764781572"
+        },
+        "java.version": {
+          "value": "25.0.2"
+        },
+        "user.dir": {
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25"
+        },
+        "os.arch": {
+          "value": "amd64"
+        },
+        "java.vm.specification.name": {
+          "value": "Java Virtual Machine Specification"
+        },
+        "PID": {
+          "value": "42616"
+        },
+        "sun.os.patch.level": {
+          "value": ""
+        },
+        "CONSOLE_LOG_CHARSET": {
+          "value": "IBM850"
+        },
+        "catalina.base": {
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\Temp\\tomcat.8080.524405719764781572"
+        },
+        "native.encoding": {
+          "value": "Cp1252"
+        },
+        "java.library.path": {
+          "value": "C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Program Files\\Php\\php-8.2.12;C:\\Programs\\OracleDb\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Users\\mladecky\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Python2718;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\eID_klient\\;C:\\Users\\mladecky\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mladecky\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\mladecky\\AppData\\Roaming\\npm;c:\\Program Files\\Php\\php-8.2.12;c:\\Program Files\\Php\\symfony\\;C:\\Users\\mladecky\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mladecky\\AppData\\Local\\PowerToys\\DSCModules\\;C:\\Users\\mladecky\\AppData\\Local\\Programs\\Podman\\;C:\\Programs\\Apache\\apache-maven-3.9.14\\bin;C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2\\bin;."
+        },
+        "java.vm.info": {
+          "value": "mixed mode, emulated-client, sharing"
+        },
+        "stderr.encoding": {
+          "value": "cp850"
+        },
+        "java.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "java.vm.version": {
+          "value": "25.0.2+10-69"
+        },
+        "stdin.encoding": {
+          "value": "cp850"
+        },
+        "sun.io.unicode.encoding": {
+          "value": "UnicodeLittle"
+        },
+        "java.class.version": {
+          "value": "69.0"
+        },
+        "LOGGED_APPLICATION_NAME": {
+          "value": "[martin] "
+        }
+      }
+    },
+    {
+      "name": "systemEnvironment",
+      "properties": {
+        "USERDOMAIN_ROAMINGPROFILE": {
+          "origin": "System Environment Property \"USERDOMAIN_ROAMINGPROFILE\"",
+          "value": "DESKTOP-NSCI3E9"
+        },
+        "NVM_SYMLINK": {
+          "origin": "System Environment Property \"NVM_SYMLINK\"",
+          "value": "C:\\Program Files\\nodejs"
+        },
+        "PROCESSOR_LEVEL": {
+          "origin": "System Environment Property \"PROCESSOR_LEVEL\"",
+          "value": "25"
+        },
+        "INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED": {
+          "origin": "System Environment Property \"INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED\"",
+          "value": "1"
+        },
+        "SESSIONNAME": {
+          "origin": "System Environment Property \"SESSIONNAME\"",
+          "value": "Console"
+        },
+        "ALLUSERSPROFILE": {
+          "origin": "System Environment Property \"ALLUSERSPROFILE\"",
+          "value": "C:\\ProgramData"
+        },
+        "PROCESSOR_ARCHITECTURE": {
+          "origin": "System Environment Property \"PROCESSOR_ARCHITECTURE\"",
+          "value": "AMD64"
+        },
+        "jvmConfig": {
+          "origin": "System Environment Property \"jvmConfig\"",
+          "value": "\\.mvn\\jvm.config"
+        },
+        "PSModulePath": {
+          "origin": "System Environment Property \"PSModulePath\"",
+          "value": "D:\\OneDrive\\Dokumenty\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules"
+        },
+        "SystemDrive": {
+          "origin": "System Environment Property \"SystemDrive\"",
+          "value": "C:"
+        },
+        "=ExitCode": {
+          "origin": "System Environment Property \"=ExitCode\"",
+          "value": "00000000"
+        },
+        "MAVEN_HOME": {
+          "origin": "System Environment Property \"MAVEN_HOME\"",
+          "value": "C:\\Programs\\Apache\\apache-maven-3.9.14"
+        },
+        "MOZ_PLUGIN_PATH": {
+          "origin": "System Environment Property \"MOZ_PLUGIN_PATH\"",
+          "value": "C:\\Program Files (x86)\\Foxit Software\\Foxit PDF Reader\\plugins\\"
+        },
+        "USERNAME": {
+          "origin": "System Environment Property \"USERNAME\"",
+          "value": "mladecky"
+        },
+        "ProgramFiles(x86)": {
+          "origin": "System Environment Property \"ProgramFiles(x86)\"",
+          "value": "C:\\Program Files (x86)"
+        },
+        "TOOLBOX_VERSION": {
+          "origin": "System Environment Property \"TOOLBOX_VERSION\"",
+          "value": "3.4.0.77112"
+        },
+        "WDIR": {
+          "origin": "System Environment Property \"WDIR\"",
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25"
+        },
+        "PATHEXT": {
+          "origin": "System Environment Property \"PATHEXT\"",
+          "value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL"
+        },
+        "DriverData": {
+          "origin": "System Environment Property \"DriverData\"",
+          "value": "C:\\Windows\\System32\\Drivers\\DriverData"
+        },
+        "FIG_TERM": {
+          "origin": "System Environment Property \"FIG_TERM\"",
+          "value": "1"
+        },
+        "OneDriveConsumer": {
+          "origin": "System Environment Property \"OneDriveConsumer\"",
+          "value": "D:\\OneDrive"
+        },
+        "CLASSWORLDS_JAR": {
+          "origin": "System Environment Property \"CLASSWORLDS_JAR\"",
+          "value": "\"C:\\Programs\\Apache\\apache-maven-3.9.14\\boot\\plexus-classworlds-2.9.0.jar\""
+        },
+        "ProgramData": {
+          "origin": "System Environment Property \"ProgramData\"",
+          "value": "C:\\ProgramData"
+        },
+        "ProgramW6432": {
+          "origin": "System Environment Property \"ProgramW6432\"",
+          "value": "C:\\Program Files"
+        },
+        "PROCESS_LAUNCHED_BY_CW": {
+          "origin": "System Environment Property \"PROCESS_LAUNCHED_BY_CW\"",
+          "value": "1"
+        },
+        "HOMEPATH": {
+          "origin": "System Environment Property \"HOMEPATH\"",
+          "value": "\\Users\\mladecky"
+        },
+        "TERM_SESSION_ID": {
+          "origin": "System Environment Property \"TERM_SESSION_ID\"",
+          "value": "57bca687-b15d-4b73-bf8d-fc69c22b7e24"
+        },
+        "PROCESSOR_IDENTIFIER": {
+          "origin": "System Environment Property \"PROCESSOR_IDENTIFIER\"",
+          "value": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD"
+        },
+        "ProgramFiles": {
+          "origin": "System Environment Property \"ProgramFiles\"",
+          "value": "C:\\Program Files"
+        },
+        "PUBLIC": {
+          "origin": "System Environment Property \"PUBLIC\"",
+          "value": "C:\\Users\\Public"
+        },
+        "windir": {
+          "origin": "System Environment Property \"windir\"",
+          "value": "C:\\WINDOWS"
+        },
+        "OPENAUDIBLE_HOME": {
+          "origin": "System Environment Property \"OPENAUDIBLE_HOME\"",
+          "value": "Z:\\OpenAudible"
+        },
+        "INTERNAL_MAVEN_OPTS": {
+          "origin": "System Environment Property \"INTERNAL_MAVEN_OPTS\"",
+          "value": "--enable-native-access=ALL-UNNAMED "
+        },
+        "LOCALAPPDATA": {
+          "origin": "System Environment Property \"LOCALAPPDATA\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Local"
+        },
+        "USERDOMAIN": {
+          "origin": "System Environment Property \"USERDOMAIN\"",
+          "value": "DESKTOP-NSCI3E9"
+        },
+        "LOGONSERVER": {
+          "origin": "System Environment Property \"LOGONSERVER\"",
+          "value": "\\\\DESKTOP-NSCI3E9"
+        },
+        "JAVA_HOME": {
+          "origin": "System Environment Property \"JAVA_HOME\"",
+          "value": "C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2"
+        },
+        "PROMPT": {
+          "origin": "System Environment Property \"PROMPT\"",
+          "value": "$P$G"
+        },
+        "ERROR_CODE": {
+          "origin": "System Environment Property \"ERROR_CODE\"",
+          "value": "0"
+        },
+        "EXEC_DIR": {
+          "origin": "System Environment Property \"EXEC_DIR\"",
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25"
+        },
+        "OneDrive": {
+          "origin": "System Environment Property \"OneDrive\"",
+          "value": "D:\\OneDrive"
+        },
+        "APPDATA": {
+          "origin": "System Environment Property \"APPDATA\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Roaming"
+        },
+        "MAVEN_CMD_LINE_ARGS": {
+          "origin": "System Environment Property \"MAVEN_CMD_LINE_ARGS\"",
+          "value": "spring-boot:run"
+        },
+        "CommonProgramFiles": {
+          "origin": "System Environment Property \"CommonProgramFiles\"",
+          "value": "C:\\Program Files\\Common Files"
+        },
+        "Path": {
+          "origin": "System Environment Property \"Path\"",
+          "value": "C:\\Program Files\\Php\\php-8.2.12;C:\\Programs\\OracleDb\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Users\\mladecky\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Python2718;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\eID_klient\\;C:\\Users\\mladecky\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mladecky\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\mladecky\\AppData\\Roaming\\npm;c:\\Program Files\\Php\\php-8.2.12;c:\\Program Files\\Php\\symfony\\;C:\\Users\\mladecky\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mladecky\\AppData\\Local\\PowerToys\\DSCModules\\;C:\\Users\\mladecky\\AppData\\Local\\Programs\\Podman\\;C:\\Programs\\Apache\\apache-maven-3.9.14\\bin;C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2\\bin"
+        },
+        "OS": {
+          "origin": "System Environment Property \"OS\"",
+          "value": "Windows_NT"
+        },
+        "COMPUTERNAME": {
+          "origin": "System Environment Property \"COMPUTERNAME\"",
+          "value": "DESKTOP-NSCI3E9"
+        },
+        "JAVACMD": {
+          "origin": "System Environment Property \"JAVACMD\"",
+          "value": "C:\\Users\\mladecky\\.jdks\\openjdk-25.0.2\\bin\\java.exe"
+        },
+        "MAVEN_PROJECTBASEDIR": {
+          "origin": "System Environment Property \"MAVEN_PROJECTBASEDIR\"",
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25"
+        },
+        "JD2_HOME": {
+          "origin": "System Environment Property \"JD2_HOME\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\JDownloader 2.0"
+        },
+        "NVM_HOME": {
+          "origin": "System Environment Property \"NVM_HOME\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Roaming\\nvm"
+        },
+        "PROCESSOR_REVISION": {
+          "origin": "System Environment Property \"PROCESSOR_REVISION\"",
+          "value": "2100"
+        },
+        "PROCESS_LAUNCHED_BY_Q": {
+          "origin": "System Environment Property \"PROCESS_LAUNCHED_BY_Q\"",
+          "value": "1"
+        },
+        "CommonProgramW6432": {
+          "origin": "System Environment Property \"CommonProgramW6432\"",
+          "value": "C:\\Program Files\\Common Files"
+        },
+        "ComSpec": {
+          "origin": "System Environment Property \"ComSpec\"",
+          "value": "C:\\WINDOWS\\system32\\cmd.exe"
+        },
+        "CLASSWORLDS_LAUNCHER": {
+          "origin": "System Environment Property \"CLASSWORLDS_LAUNCHER\"",
+          "value": "org.codehaus.plexus.classworlds.launcher.Launcher"
+        },
+        "TERMINAL_EMULATOR": {
+          "origin": "System Environment Property \"TERMINAL_EMULATOR\"",
+          "value": "JetBrains-JediTerm"
+        },
+        "PSExecutionPolicyPreference": {
+          "origin": "System Environment Property \"PSExecutionPolicyPreference\"",
+          "value": "Bypass"
+        },
+        "=D:": {
+          "origin": "System Environment Property \"=D:\"",
+          "value": "D:\\projects\\github\\martin-ladecky\\spring-boot-jdk25"
+        },
+        "SystemRoot": {
+          "origin": "System Environment Property \"SystemRoot\"",
+          "value": "C:\\WINDOWS"
+        },
+        "TEMP": {
+          "origin": "System Environment Property \"TEMP\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\Temp"
+        },
+        "HOMEDRIVE": {
+          "origin": "System Environment Property \"HOMEDRIVE\"",
+          "value": "C:"
+        },
+        "USERPROFILE": {
+          "origin": "System Environment Property \"USERPROFILE\"",
+          "value": "C:\\Users\\mladecky"
+        },
+        "TMP": {
+          "origin": "System Environment Property \"TMP\"",
+          "value": "C:\\Users\\mladecky\\AppData\\Local\\Temp"
+        },
+        "CommonProgramFiles(x86)": {
+          "origin": "System Environment Property \"CommonProgramFiles(x86)\"",
+          "value": "C:\\Program Files (x86)\\Common Files"
+        },
+        "NUMBER_OF_PROCESSORS": {
+          "origin": "System Environment Property \"NUMBER_OF_PROCESSORS\"",
+          "value": "32"
+        }
+      }
+    },
+    {
+      "name": "Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'",
+      "properties": {
+        "spring.application.name": {
+          "origin": "class path resource [application.properties] - 1:25",
+          "value": "martin"
+        },
+        "spring.datasource.password": {
+          "origin": "class path resource [application.properties] - 2:28",
+          "value": "db_prod_secret_2026"
+        },
+        "external.api.key": {
+          "origin": "class path resource [application.properties] - 3:18",
+          "value": "sk-12345-spring-io-demo-key"
+        },
+        "management.endpoints.web.exposure.include": {
+          "origin": "class path resource [application.properties] - 8:43",
+          "value": "env,configprops"
+        },
+        "management.endpoint.env.show-values": {
+          "origin": "class path resource [application.properties] - 9:37",
+          "value": "ALWAYS"
+        },
+        "management.endpoint.configprops.show-values": {
+          "origin": "class path resource [application.properties] - 10:45",
+          "value": "ALWAYS"
+        }
+      }
+    },
+    {
+      "name": "applicationInfo",
+      "properties": {
+        "spring.application.pid": {
+          "value": 42616
+        }
+      }
+    },
+    {
+      "name": "Management Server",
+      "properties": {
+        "local.management.port": {
+          "value": "8080"
+        }
+      }
+    }
+  ]
+}
