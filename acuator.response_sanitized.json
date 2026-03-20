@@ -1,0 +1,549 @@
+{
+  "activeProfiles": [],
+  "defaultProfiles": [
+    "default"
+  ],
+  "propertySources": [
+    {
+      "name": "server.ports",
+      "properties": {
+        "local.server.port": {
+          "value": "******"
+        }
+      }
+    },
+    {
+      "name": "servletContextInitParams",
+      "properties": {}
+    },
+    {
+      "name": "systemProperties",
+      "properties": {
+        "java.specification.version": {
+          "value": "******"
+        },
+        "sun.cpu.isalist": {
+          "value": "******"
+        },
+        "sun.jnu.encoding": {
+          "value": "******"
+        },
+        "java.class.path": {
+          "value": "******"
+        },
+        "java.vm.vendor": {
+          "value": "******"
+        },
+        "sun.arch.data.model": {
+          "value": "******"
+        },
+        "user.variant": {
+          "value": "******"
+        },
+        "java.vendor.url": {
+          "value": "******"
+        },
+        "catalina.useNaming": {
+          "value": "******"
+        },
+        "user.timezone": {
+          "value": "******"
+        },
+        "java.vm.specification.version": {
+          "value": "******"
+        },
+        "os.name": {
+          "value": "******"
+        },
+        "APPLICATION_NAME": {
+          "value": "******"
+        },
+        "sun.java.launcher": {
+          "value": "******"
+        },
+        "user.country": {
+          "value": "******"
+        },
+        "sun.boot.library.path": {
+          "value": "******"
+        },
+        "sun.java.command": {
+          "value": "******"
+        },
+        "jdk.debug": {
+          "value": "******"
+        },
+        "sun.cpu.endian": {
+          "value": "******"
+        },
+        "user.home": {
+          "value": "******"
+        },
+        "user.language": {
+          "value": "******"
+        },
+        "java.specification.vendor": {
+          "value": "******"
+        },
+        "java.version.date": {
+          "value": "******"
+        },
+        "java.home": {
+          "value": "******"
+        },
+        "file.separator": {
+          "value": "******"
+        },
+        "java.vm.compressedOopsMode": {
+          "value": "******"
+        },
+        "line.separator": {
+          "value": "******"
+        },
+        "java.vm.specification.vendor": {
+          "value": "******"
+        },
+        "java.specification.name": {
+          "value": "******"
+        },
+        "FILE_LOG_CHARSET": {
+          "value": "******"
+        },
+        "java.awt.headless": {
+          "value": "******"
+        },
+        "user.script": {
+          "value": "******"
+        },
+        "sun.management.compiler": {
+          "value": "******"
+        },
+        "java.runtime.version": {
+          "value": "******"
+        },
+        "user.name": {
+          "value": "******"
+        },
+        "stdout.encoding": {
+          "value": "******"
+        },
+        "path.separator": {
+          "value": "******"
+        },
+        "os.version": {
+          "value": "******"
+        },
+        "java.runtime.name": {
+          "value": "******"
+        },
+        "file.encoding": {
+          "value": "******"
+        },
+        "java.vm.name": {
+          "value": "******"
+        },
+        "java.vendor.url.bug": {
+          "value": "******"
+        },
+        "java.io.tmpdir": {
+          "value": "******"
+        },
+        "catalina.home": {
+          "value": "******"
+        },
+        "java.version": {
+          "value": "******"
+        },
+        "user.dir": {
+          "value": "******"
+        },
+        "os.arch": {
+          "value": "******"
+        },
+        "java.vm.specification.name": {
+          "value": "******"
+        },
+        "PID": {
+          "value": "******"
+        },
+        "sun.os.patch.level": {
+          "value": "******"
+        },
+        "CONSOLE_LOG_CHARSET": {
+          "value": "******"
+        },
+        "catalina.base": {
+          "value": "******"
+        },
+        "native.encoding": {
+          "value": "******"
+        },
+        "java.library.path": {
+          "value": "******"
+        },
+        "java.vm.info": {
+          "value": "******"
+        },
+        "stderr.encoding": {
+          "value": "******"
+        },
+        "java.vendor": {
+          "value": "******"
+        },
+        "java.vm.version": {
+          "value": "******"
+        },
+        "stdin.encoding": {
+          "value": "******"
+        },
+        "sun.io.unicode.encoding": {
+          "value": "******"
+        },
+        "java.class.version": {
+          "value": "******"
+        },
+        "LOGGED_APPLICATION_NAME": {
+          "value": "******"
+        }
+      }
+    },
+    {
+      "name": "systemEnvironment",
+      "properties": {
+        "USERDOMAIN_ROAMINGPROFILE": {
+          "origin": "System Environment Property \"USERDOMAIN_ROAMINGPROFILE\"",
+          "value": "******"
+        },
+        "NVM_SYMLINK": {
+          "origin": "System Environment Property \"NVM_SYMLINK\"",
+          "value": "******"
+        },
+        "PROCESSOR_LEVEL": {
+          "origin": "System Environment Property \"PROCESSOR_LEVEL\"",
+          "value": "******"
+        },
+        "INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED": {
+          "origin": "System Environment Property \"INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED\"",
+          "value": "******"
+        },
+        "SESSIONNAME": {
+          "origin": "System Environment Property \"SESSIONNAME\"",
+          "value": "******"
+        },
+        "ALLUSERSPROFILE": {
+          "origin": "System Environment Property \"ALLUSERSPROFILE\"",
+          "value": "******"
+        },
+        "PROCESSOR_ARCHITECTURE": {
+          "origin": "System Environment Property \"PROCESSOR_ARCHITECTURE\"",
+          "value": "******"
+        },
+        "jvmConfig": {
+          "origin": "System Environment Property \"jvmConfig\"",
+          "value": "******"
+        },
+        "PSModulePath": {
+          "origin": "System Environment Property \"PSModulePath\"",
+          "value": "******"
+        },
+        "SystemDrive": {
+          "origin": "System Environment Property \"SystemDrive\"",
+          "value": "******"
+        },
+        "=ExitCode": {
+          "origin": "System Environment Property \"=ExitCode\"",
+          "value": "******"
+        },
+        "MAVEN_HOME": {
+          "origin": "System Environment Property \"MAVEN_HOME\"",
+          "value": "******"
+        },
+        "MOZ_PLUGIN_PATH": {
+          "origin": "System Environment Property \"MOZ_PLUGIN_PATH\"",
+          "value": "******"
+        },
+        "USERNAME": {
+          "origin": "System Environment Property \"USERNAME\"",
+          "value": "******"
+        },
+        "ProgramFiles(x86)": {
+          "origin": "System Environment Property \"ProgramFiles(x86)\"",
+          "value": "******"
+        },
+        "TOOLBOX_VERSION": {
+          "origin": "System Environment Property \"TOOLBOX_VERSION\"",
+          "value": "******"
+        },
+        "WDIR": {
+          "origin": "System Environment Property \"WDIR\"",
+          "value": "******"
+        },
+        "PATHEXT": {
+          "origin": "System Environment Property \"PATHEXT\"",
+          "value": "******"
+        },
+        "DriverData": {
+          "origin": "System Environment Property \"DriverData\"",
+          "value": "******"
+        },
+        "FIG_TERM": {
+          "origin": "System Environment Property \"FIG_TERM\"",
+          "value": "******"
+        },
+        "OneDriveConsumer": {
+          "origin": "System Environment Property \"OneDriveConsumer\"",
+          "value": "******"
+        },
+        "CLASSWORLDS_JAR": {
+          "origin": "System Environment Property \"CLASSWORLDS_JAR\"",
+          "value": "******"
+        },
+        "ProgramData": {
+          "origin": "System Environment Property \"ProgramData\"",
+          "value": "******"
+        },
+        "ProgramW6432": {
+          "origin": "System Environment Property \"ProgramW6432\"",
+          "value": "******"
+        },
+        "PROCESS_LAUNCHED_BY_CW": {
+          "origin": "System Environment Property \"PROCESS_LAUNCHED_BY_CW\"",
+          "value": "******"
+        },
+        "HOMEPATH": {
+          "origin": "System Environment Property \"HOMEPATH\"",
+          "value": "******"
+        },
+        "TERM_SESSION_ID": {
+          "origin": "System Environment Property \"TERM_SESSION_ID\"",
+          "value": "******"
+        },
+        "PROCESSOR_IDENTIFIER": {
+          "origin": "System Environment Property \"PROCESSOR_IDENTIFIER\"",
+          "value": "******"
+        },
+        "ProgramFiles": {
+          "origin": "System Environment Property \"ProgramFiles\"",
+          "value": "******"
+        },
+        "PUBLIC": {
+          "origin": "System Environment Property \"PUBLIC\"",
+          "value": "******"
+        },
+        "windir": {
+          "origin": "System Environment Property \"windir\"",
+          "value": "******"
+        },
+        "OPENAUDIBLE_HOME": {
+          "origin": "System Environment Property \"OPENAUDIBLE_HOME\"",
+          "value": "******"
+        },
+        "INTERNAL_MAVEN_OPTS": {
+          "origin": "System Environment Property \"INTERNAL_MAVEN_OPTS\"",
+          "value": "******"
+        },
+        "LOCALAPPDATA": {
+          "origin": "System Environment Property \"LOCALAPPDATA\"",
+          "value": "******"
+        },
+        "USERDOMAIN": {
+          "origin": "System Environment Property \"USERDOMAIN\"",
+          "value": "******"
+        },
+        "LOGONSERVER": {
+          "origin": "System Environment Property \"LOGONSERVER\"",
+          "value": "******"
+        },
+        "JAVA_HOME": {
+          "origin": "System Environment Property \"JAVA_HOME\"",
+          "value": "******"
+        },
+        "PROMPT": {
+          "origin": "System Environment Property \"PROMPT\"",
+          "value": "******"
+        },
+        "ERROR_CODE": {
+          "origin": "System Environment Property \"ERROR_CODE\"",
+          "value": "******"
+        },
+        "EXEC_DIR": {
+          "origin": "System Environment Property \"EXEC_DIR\"",
+          "value": "******"
+        },
+        "OneDrive": {
+          "origin": "System Environment Property \"OneDrive\"",
+          "value": "******"
+        },
+        "APPDATA": {
+          "origin": "System Environment Property \"APPDATA\"",
+          "value": "******"
+        },
+        "MAVEN_CMD_LINE_ARGS": {
+          "origin": "System Environment Property \"MAVEN_CMD_LINE_ARGS\"",
+          "value": "******"
+        },
+        "CommonProgramFiles": {
+          "origin": "System Environment Property \"CommonProgramFiles\"",
+          "value": "******"
+        },
+        "Path": {
+          "origin": "System Environment Property \"Path\"",
+          "value": "******"
+        },
+        "OS": {
+          "origin": "System Environment Property \"OS\"",
+          "value": "******"
+        },
+        "COMPUTERNAME": {
+          "origin": "System Environment Property \"COMPUTERNAME\"",
+          "value": "******"
+        },
+        "JAVACMD": {
+          "origin": "System Environment Property \"JAVACMD\"",
+          "value": "******"
+        },
+        "MAVEN_PROJECTBASEDIR": {
+          "origin": "System Environment Property \"MAVEN_PROJECTBASEDIR\"",
+          "value": "******"
+        },
+        "JD2_HOME": {
+          "origin": "System Environment Property \"JD2_HOME\"",
+          "value": "******"
+        },
+        "NVM_HOME": {
+          "origin": "System Environment Property \"NVM_HOME\"",
+          "value": "******"
+        },
+        "PROCESSOR_REVISION": {
+          "origin": "System Environment Property \"PROCESSOR_REVISION\"",
+          "value": "******"
+        },
+        "PROCESS_LAUNCHED_BY_Q": {
+          "origin": "System Environment Property \"PROCESS_LAUNCHED_BY_Q\"",
+          "value": "******"
+        },
+        "CommonProgramW6432": {
+          "origin": "System Environment Property \"CommonProgramW6432\"",
+          "value": "******"
+        },
+        "ComSpec": {
+          "origin": "System Environment Property \"ComSpec\"",
+          "value": "******"
+        },
+        "CLASSWORLDS_LAUNCHER": {
+          "origin": "System Environment Property \"CLASSWORLDS_LAUNCHER\"",
+          "value": "******"
+        },
+        "TERMINAL_EMULATOR": {
+          "origin": "System Environment Property \"TERMINAL_EMULATOR\"",
+          "value": "******"
+        },
+        "PSExecutionPolicyPreference": {
+          "origin": "System Environment Property \"PSExecutionPolicyPreference\"",
+          "value": "******"
+        },
+        "=D:": {
+          "origin": "System Environment Property \"=D:\"",
+          "value": "******"
+        },
+        "SystemRoot": {
+          "origin": "System Environment Property \"SystemRoot\"",
+          "value": "******"
+        },
+        "TEMP": {
+          "origin": "System Environment Property \"TEMP\"",
+          "value": "******"
+        },
+        "HOMEDRIVE": {
+          "origin": "System Environment Property \"HOMEDRIVE\"",
+          "value": "******"
+        },
+        "USERPROFILE": {
+          "origin": "System Environment Property \"USERPROFILE\"",
+          "value": "******"
+        },
+        "TMP": {
+          "origin": "System Environment Property \"TMP\"",
+          "value": "******"
+        },
+        "CommonProgramFiles(x86)": {
+          "origin": "System Environment Property \"CommonProgramFiles(x86)\"",
+          "value": "******"
+        },
+        "NUMBER_OF_PROCESSORS": {
+          "origin": "System Environment Property \"NUMBER_OF_PROCESSORS\"",
+          "value": "******"
+        }
+      }
+    },
+    {
+      "name": "Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'",
+      "properties": {
+        "spring.application.name": {
+          "origin": "class path resource [application.properties] - 1:25",
+          "value": "******"
+        },
+        "spring.datasource.password": {
+          "origin": "class path resource [application.properties] - 2:28",
+          "value": "******"
+        },
+        "external.api.key": {
+          "origin": "class path resource [application.properties] - 3:18",
+          "value": "******"
+        },
+        "management.endpoints.web.exposure.include": {
+          "origin": "class path resource [application.properties] - 6:43",
+          "value": "******"
+        },
+        "management.endpoint.env.show-values": {
+          "origin": "class path resource [application.properties] - 8:37",
+          "value": "******"
+        },
+        "management.endpoint.configprops.show-values": {
+          "origin": "class path resource [application.properties] - 9:45",
+          "value": "******"
+        },
+        "management.endpoint.sanitizer.keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 11:48",
+          "value": "******"
+        },
+        "management.endpoint.configprops.keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 12:50",
+          "value": "******"
+        },
+        "management.endpoint.env.keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 13:42",
+          "value": "******"
+        },
+        "management.endpoint.env.additional-keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 14:53",
+          "value": "******"
+        },
+        "management.endpoint.configprops.additional-keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 15:61",
+          "value": "******"
+        },
+        "management.endpoint.sanitizer.additional-keys-to-sanitize": {
+          "origin": "class path resource [application.properties] - 16:59",
+          "value": "******"
+        }
+      }
+    },
+    {
+      "name": "applicationInfo",
+      "properties": {
+        "spring.application.pid": {
+          "value": "******"
+        }
+      }
+    },
+    {
+      "name": "Management Server",
+      "properties": {
+        "local.management.port": {
+          "value": "******"
+        }
+      }
+    }
+  ]
+}
