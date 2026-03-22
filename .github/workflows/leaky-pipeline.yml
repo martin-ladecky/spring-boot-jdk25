@@ -1,0 +1,21 @@
+name: Forensic Log Leak
+on: [push]
+
+jobs:
+  leak-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: The Standard Leak (Masked)
+        env:
+          MY_SECRET: ${{ secrets.DATABASE_PASSWORD }}
+        run: |
+          # GitHub will catch this and show ***
+          echo "My secret is: $MY_SECRET"
+
+      - name: The Forensic Bypass (Base64)
+        env:
+          MY_SECRET: ${{ secrets.DATABASE_PASSWORD }}
+        run: |
+          # GitHub DOES NOT recognize the Base64 version of your secret.
+          # It will print the raw Base64 string to the logs!
+          echo $MY_SECRET | base64
