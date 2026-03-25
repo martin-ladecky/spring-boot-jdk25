@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: martin-app
+  cloud:
+    vault:
+      uri: http://localhost:8200
+      token: ${VAULT_TOKEN}
+      kv:
+        enabled: true
+  config:
+    import: vault:// # This tells Spring to pull properties from Vault
