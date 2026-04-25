@@ -2,7 +2,7 @@
 
 [![Conference](https://img.shields.io/badge/Talk-Spring_I/O_2026-green)](https://2026.springio.net/speakers/martin-ladecky/)
 [![Presentation](https://img.shields.io/badge/Slides-PDF-orange)](#-resources)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Ask author](https://img.shields.io/badge/License-Ask_author-yellow.svg)](#-license)
 
 > *"It’s just a local config."* > *"I’ll delete the history later."*
 
@@ -56,3 +56,7 @@ To explore the forensic artifacts:
 2. **Run the Demo App:**
    ```bash
    ./mvnw spring-boot:run
+
+## 📜 License
+
+Ask author. Please contact the author to approve any usage of this work.
