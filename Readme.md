@@ -57,6 +57,9 @@ To explore the forensic artifacts:
    ```bash
    ./mvnw spring-boot:run
 
-## 📜 License
+## 🤝 Let's Connect
 
-Ask author. Please contact the author to approve any usage of this work.
+Did you attend the talk at Spring IO? Feel free to open an issue or reach out if you want to discuss the future of engineering interviews!
+
+- [LinkedIn](https://www.linkedin.com/in/martin-ladeck%C3%BD-9366ba5/)
+- [GitHub](https://github.com/martin-ladecky)
